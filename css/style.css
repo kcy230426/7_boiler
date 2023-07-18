@@ -28,6 +28,10 @@ a, a:hover{
     display: flex;
 }
 
+.d-none{
+    display: none;
+}
+
 .justify-content-center{
     justify-content: center;
 }
@@ -38,6 +42,10 @@ a, a:hover{
 
 .align-items-center{
     align-items: center;
+}
+
+.align-items-base{
+    align-items: baseline;
 }
 
 .text-center{
@@ -56,6 +64,26 @@ a, a:hover{
     margin: 0 auto;
 }
 
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100px;
+}
+
+.h-200{
+    height: 200px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
 .container{
     width: 1200px;
 }
@@ -69,3 +97,44 @@ a, a:hover{
 }
 
 
+/* 꾸미기 css */
+
+#gnb > li{
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#d2ul > li {
+    text-align: center;
+}
+
+#gnb li:hover{
+    background-color: rgb(63, 141, 146);
+}
+
+#gnb li:hover a{
+    color: white;
+}
+
+#gnb li:hover #d2ul{
+    display: block;
+}
+
+#d2ul{
+    left: 25%;
+    top: 100%;
+    transform: translateX(-25%);
+    background-color: rgb(26, 26, 26);
+}
+
+#d2ul > li{
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#tab{
+    background-color: rgb(63, 141, 146);
+}
